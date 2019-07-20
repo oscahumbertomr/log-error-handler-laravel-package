@@ -1,0 +1,19 @@
+{
+    "name": "ing-oscar/log-error-hanlder",
+    "description": "Libreria para procesar errores cacheados en el backend de laravel , poder guardar estos en base de datos , mandarle el error (o no) al cliente y poder desplegar el erro o log de error en el forntend",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oscar Montejo",
+            "email": "oscarhumbertomr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "IngOscar\\LogErrorHanlder\\": "src/"
+        }
+    }
+}
