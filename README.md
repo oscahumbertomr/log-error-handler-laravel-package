@@ -4,8 +4,10 @@ Libreria para procesar errores cacheados en el backend de laravel ,
 poder guardar estos en base de datos , mandarle el error (o no) al cliente 
 y poder desplegar el erro o log de error en el forntend
 
-- Laravel validator: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
+- Laravel validator: Puedes guardar los errores de **laravel validator** en la base de datos para así poder
+dar seguimiento a los "defectos" del sistema. 
+- Puedes guardar en base de datos los errores que se ejecutaron dentro de un try catch (correctamente creado) 
+y devolver al cliente un id de error para no mostrar el error completo al cliente 
 ## Descarga el packete via composer
 ```console
 composer require ing-oscar/log-error-hanlder
