@@ -21,6 +21,10 @@ class LogErrorHandlerServiceProvider extends ServiceProvider
             __DIR__.'/../database/migrations' => database_path('migrations'),
         ], 'leh-migration');
 
+        $this->publishes([
+            __DIR__.'/../resources/js/exceptions' => base_path('resources/js/exceptions'),
+        ], 'leh-js');
+
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
 
 

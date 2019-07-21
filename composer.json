@@ -9,6 +9,11 @@
             "email": "oscarhumbertomr@gmail.com"
         }
     ],
+    "keywords": [
+        "laravel",
+        "error handler"
+    ],
+    "homepage": "https://github.com/oscahumbertomr/log-error-handler-laravel-package",
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
