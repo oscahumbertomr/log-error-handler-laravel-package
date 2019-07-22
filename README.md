@@ -15,7 +15,7 @@
 
 Libreria para procesar errores cacheados en el backend de [**laravel**][1] , 
 poder guardar estos en base de datos , mandarle el error (o no) al cliente 
-y poder desplegar el erro o log de error en el forntend
+y poder desplegar el error o log de error en el forntend
 - Laravel validator: Puedes guardar los errores de [**laravel validator**][2] en la base de datos para así poder
 dar seguimiento a los "defectos" del sistema. 
 - Puedes guardar en base de datos los errores que se ejecutaron dentro de un try catch (correctamente creado) 
