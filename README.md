@@ -20,6 +20,12 @@ y poder desplegar el error o log de error en el forntend
 dar seguimiento a los "defectos" del sistema. 
 - Puedes guardar en base de datos los errores que se ejecutaron dentro de un try catch (correctamente creado) 
 y devolver al cliente un id de error para no mostrar el error completo al cliente 
+
+ [![Error no identifiacado][1]][1]
+ 
+ 
+   [1]: https://i.stack.imgur.com/MacLn.png
+
 ## Descarga el packete via composer
 ```console
 composer require ing-oscar/log-error-hanlder
