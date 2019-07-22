@@ -1,4 +1,17 @@
-# log-error-handler-laravel-package [![Total Downloads](https://poser.pugx.org/ing-oscar/log-error-hanlder/downloads)](https://github.com/oscahumbertomr/log-error-handler-laravel-package)
+
+
+# log-error-handler-laravel-package 
+
+
+<p align="center">
+<a href="https://github.com/oscahumbertomr/log-error-handler-laravel-package"><img src="https://poser.pugx.org/ing-oscar/log-error-hanlder/d/total.svg" alt="Total Downloads"></a>
+<a href="https://github.com/oscahumbertomr/log-error-handler-laravel-package"><img src="https://poser.pugx.org/ing-oscar/log-error-hanlder/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://github.com/oscahumbertomr/log-error-handler-laravel-package"><img src="https://poser.pugx.org/ing-oscar/log-error-hanlder/license.svg" alt="License"></a>
+</p>
+
+
+
+
 
 Libreria para procesar errores cacheados en el backend de laravel , 
 poder guardar estos en base de datos , mandarle el error (o no) al cliente 
