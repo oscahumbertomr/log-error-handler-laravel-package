@@ -19,11 +19,9 @@ class CreateTblErrorCachado extends Migration
             $table->string('url');
             $table->string('controller');
             $table->integer('response_code');
-            $table->unsignedBigInteger('FK_usuario')->nullable();
+            $table->unsignedBigInteger('usuario')->nullable();
             $table->dateTime('fecha_hora')->useCurrent();
-            $table->unsignedBigInteger('FK_estatus')->default(1);
-            $table->foreign('FK_usuario')->references('PK_usuario')->on('cat_usuario');
-            $table->foreign('FK_estatus')->references('PK_estatus')->on('cat_estatus');
+            $table->unsignedBigInteger('estatus')->default(1);
 
         });
     }

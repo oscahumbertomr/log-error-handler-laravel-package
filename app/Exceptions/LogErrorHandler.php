@@ -20,7 +20,7 @@ class LogErrorHandler
             );
             return response()->json(array(
                 "errors" => $error->validator->errors(),
-                "message" => 'Los datos dados no eran válidos',
+                "message" => 'Los datos dados no son válidos',
                 "logErrorId" => $logErrorId
             ), 422);
         } else {
